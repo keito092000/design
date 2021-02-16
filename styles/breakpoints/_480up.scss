@@ -1,0 +1,800 @@
+$blue:#67c5ff;
+
+
+header{
+  position: relative;
+  background-image: url("https://illustimage.com/photo/1706.png");
+  height:350px;
+  & h1{
+   position: absolute;
+   top:150px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:white;
+   font-size: 25px;
+   width:350px;
+  }
+  & .btn-flat-border {
+    position: absolute;
+    top:250px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:170px;
+    height:40px;
+    text-align: center;
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    background-color:white;
+    border-radius:30px ;
+    transition: .4s;
+  }
+  & .btn-flat-border:hover {
+    background: white;
+    color: #67c5ff;
+  }
+  & img{
+   text-align: right;
+   width:140px;
+  }
+}
+.own{
+  position: relative;
+  height:400px;
+  & h1{ 
+   position: absolute;
+   top:100px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-size: 23px;
+   width:240px;
+   color:$blue;
+  }
+  & p{
+    position: absolute;
+    top:230px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    width:300px;
+    color:gray;
+  }
+  & .camera{
+   position: absolute;
+   top:330px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-size: 15px;
+   width:250px;
+  }
+  & .deta{
+    position: absolute;
+    top:500px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:330px;
+  }
+  & .save{
+    position: absolute;
+    top:700px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+  }
+  & .cloud{
+   position: absolute;
+   top:800px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   font-size: 19px;
+  }
+  & .air{
+    position: absolute;
+    top:950px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:330px;
+  }
+  & .net{
+    position: absolute;
+    top:1100px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+  }
+}
+.two{
+  position: relative;
+  top:650px;
+  background-image: url("https://colorate.azurewebsites.net/SwatchColor/E4E4E4");
+  height:1650px;
+  & h1{
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:$blue;
+    font-size: 23px;
+    width:280px;
+  }
+  //pcの時
+  .box {
+  display: none;
+  }
+  //peの時
+  .content{
+    .flex{
+      position: relative;
+      top:350px;
+      left:50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      margin-top:150px;
+      & .d{
+        position: absolute;
+        top:-20px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-size: 23px;
+        width:200px;
+      }
+      & .s{
+        text-align: center;
+        font-size: 23px;
+        position: relative;
+        top:-30px; 
+      }
+      & .b{
+        position: absolute;
+        top:-70px;
+        left:50%;
+        transform: translate(-40%, -50%);
+        font-size: 23px;
+        width:300px;
+      }
+      & img{
+        position: relative;
+        top:120px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:350px;
+      }
+      & p{
+        position: relative;
+        top:70px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:340px;
+        color:gray;
+      }
+    }
+  }
+}
+.box:nth-child(odd) {
+  display: none;
+}
+.three{
+  position: relative;
+  top:650px;
+  height:2000px;
+  & h1{
+   position: absolute;
+   top:80px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+   font-size: 23px;
+  } 
+  //pcの時//
+  & .value{
+    display: none;
+    position: absolute;
+    top:160px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:300px;
+  }
+  & .function{
+    display: none;
+    position: absolute;
+    top:250px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+    color:gray;
+  }
+  & .ms{
+   display: none;
+   position: absolute;  
+   top:330px;
+   left:50%;
+   transform: translate(-50%, -50%);
+  }
+  & .out{
+   display: none;
+   position: absolute;  
+   top:330px;
+   left:50%;
+   transform: translate(-50%, -50%);
+  }
+  .flex{
+   display: none;
+    & img{
+      display: none;
+    }
+  }
+  & .back{
+    display: none;
+  }
+  & .cap{
+    display: none;
+  }
+  .box {
+    display: none;
+  .boxInner {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    // justify-content: space-between;
+    align-items: top;
+  }
+  
+  h2 {
+    margin: 10px;
+    color:black;
+  }
+  
+  .text {
+    width: 60%;
+    padding: 20px;
+    color:gray;
+  }
+  
+  .pict {
+    width: 600px;
+    padding: 20px;
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+    }
+
+    //pe
+    .blue-flex{
+      position: absolute;
+      top:1250px;
+      left:50%;
+      transform: translate(-50%, -50%);
+      .pe{
+        display: flex;
+        flex-direction: column;
+        margin-top:10px;
+
+        & h2{
+          text-align: center;
+          margin-top:20px;
+        }
+        & p{
+          color:gray;
+          text-align:center;
+          width:370px;
+          margin-top:5px;
+          margin-left:5px;
+        }
+        & h3{
+          text-align: center;
+          margin-top:20px;
+        }
+        & .list{
+          text-align:center ;
+          width:370px;
+          margin-left:10px;
+        }
+        & .class{
+          width:350px;
+        position: relative;
+        top:100px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        }
+      }
+    }
+
+
+  }
+  .box:nth-child(odd) {
+    display: none;
+  }
+.four{
+  position: relative;
+  top:1100px;
+  background-image: url("https://colorate.azurewebsites.net/SwatchColor/E4E4E4");
+  height:2900px;
+  & h1{
+   position: absolute;
+   top:100px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+  }
+  & p{
+   position: absolute;
+   top:180px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:gray;
+   width:370px;
+  }
+//pc
+  .flex{
+      position: relative;
+      top:700px;
+      left:50%;
+      transform: translate(-40%, -50%);
+      display: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width:1300px;       
+    .w{
+      display: flex;
+      flex-direction: column;
+      & h2{
+        text-align: center;
+        font-size: 19px;
+      }
+      & img{
+        width:360px;
+        text-align: center;
+      }
+      & ul{
+       color:gray;
+      }
+    }
+  }
+  //pe
+  .pe{
+    position: relative;
+    top:300px;
+    .pe-flex{
+      display: flex;
+      flex-direction:column ;
+      & h2{
+        text-align: center;
+      }
+      & img{
+        width:360px;
+        position: relative;
+        top:140px;
+        left:50%; 
+        transform: translate(-50%, -50%);
+      }
+      & ul{
+       text-align: left;
+       color:gray;
+      }
+    }
+  }
+}
+
+.five{
+  position: relative;
+  top:1080px;
+  height:3900px;
+  & h1{
+   position: absolute;
+   top:60px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+  }
+  & .sistem{
+   position: absolute;
+   top:140px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:gray;
+   width:360px;
+  }
+  .flex-content{
+    position: relative;
+    top:1050px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:1150px;
+    justify-content: space-around;
+   .content{
+     display:flex ;
+     flex-direction: column;
+     margin-top:100px;
+
+     & h2{
+      text-align: center; 
+     }
+     & .foto{
+      position: relative;
+      top:150px;
+      left:50%;
+      transform: translate(-50%, -50%);
+      width:300px;
+     }
+     & h3{
+       position: relative;
+       top:40px;
+       text-align: center;
+     }
+     & .sabis{
+       position: relative;
+       top:140px;
+       left:50%;
+       transform: translate(-50%, -50%);
+       width:300px;
+       color:silver;
+     }
+   }
+  }
+  .pe{
+    position: relative;
+    top:250px;
+    display: flex;
+    flex-direction: column;
+    .pe-content{
+      display: flex;
+      flex-direction: column;
+      & h2{
+        text-align: center;
+      }
+      & img{
+        width:330px;
+        position: relative;
+        top:50px;
+        left:50%; 
+        transform: translate(-50%, -50%);
+        margin-top:100px;
+      }
+      & h3{
+        text-align: center;
+        position: relative;
+        top:-70px;
+      }
+      & p{
+        position: relative;
+        top:10px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:350px;
+        color:gray;
+      }
+    }
+  }
+}
+.six{
+  position: relative;
+  top:1650px;
+  background-image: url("https://colorate.azurewebsites.net/SwatchColor/E4E4E4");
+  height:3590px;
+  & h1{
+   position: absolute;
+   top:100px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+  }
+  .list-content{
+    position: relative;
+    top:930px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:1150px;
+    justify-content: space-around;
+   .tab{
+     display:flex ;
+     flex-direction: column;
+     margin-top:100px;
+     & h2{
+      text-align: center; 
+     }
+     & .width{
+      position: relative;
+      top:150px;
+      left:50%;
+      transform: translate(-50%, -50%);
+      width:300px;
+     }
+     & h3{
+       position: relative;
+       top:40px;
+       text-align: center;
+     }
+     & .lang{
+       position: relative;
+       top:140px;
+       left:50%;
+       transform: translate(-50%, -50%);
+       width:300px;
+       color:gray;
+     }
+   }
+  }
+  .flex-list{
+    position: relative;
+    top:250px;
+    .pe{
+      display: flex;
+      flex-direction: column;
+      & h2{
+        text-align: center;
+      }
+      & img{
+       width:250px;
+       position: relative;
+       top:40px;
+       left:50%;
+       transform: translate(-50%, -50%);  
+       margin-top:100px;
+      }
+      & h3{
+        text-align: center;
+        position: relative;
+        top:-60px;
+      }
+      & p{
+        position: relative;
+        top:10px;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width:350px;
+        color:gray;
+      }
+    }
+  }
+}
+.seven{
+  position: relative;
+  top:1700px;
+  & h1{
+   position: absolute;
+   top:-20px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+   font-size:22px;
+   width:300px;
+  }
+  & p{
+    position: absolute;
+    top:50px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:gray;
+    width:350px;
+  }
+  & video{
+   position: absolute;
+   top:270px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   width:360px;
+  }
+  & .btn-flat-system {
+    position: relative;
+    top:500px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:200px;
+    height:40px;
+    text-align: center;
+    margin-top:20px;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+    background-color:$blue;
+    border-radius:30px ;
+    transition: .4s;
+  }
+  & .btn-flat-system:hover {
+    background: white;
+    color: #67c5ff;
+  }
+}
+.eight{
+  position: relative;
+  top:2300px;
+  background-image: url("https://colorate.azurewebsites.net/SwatchColor/E4E4E4");
+  height:1000px;
+  & h1{
+   position: absolute;
+   top:50px;
+   left:50%;
+   transform: translate(-50%, -50%);
+   color:$blue;
+   font-size: 23px;
+  }
+  & img{
+    position: absolute;
+    top:130px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:330px;
+  }
+  .box1 {
+    position: absolute;
+    top:500px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 1px gray;
+    background-color: white;
+    width:350px;
+    height:500px;
+
+    & .vl{
+      position: absolute;
+      top:50px;
+      left:50%;
+      transform: translate(-50%, -50%);
+    }
+    & .sys{
+      position: relative;
+      top:100px;
+      left:50%;
+      transform: translate(-40%, -50%);
+      color:gray;
+      font-size:13px ;
+      & > span{
+        font-size: 25px;
+        color:black;
+      }
+    }
+    & .al{
+      position: absolute;
+      top:290px;
+      left:50%;
+      transform: translate(-50%, -50%);
+    }
+    & .tem{
+      position: relative;
+      top:230px;
+      left:50%;
+      transform: translate(-40%, -50%);
+      color:gray;
+      font-size: 13px;
+      & > span{
+        font-size: 25px;
+        color:black;
+      }
+    }
+    }
+    ul{
+      position: absolute;
+      top:50px;
+      left:50%;
+      transform: translate(-55%, -50%);
+      list-style: none;
+      & li{
+        position: relative;
+        top:850px;
+        text-align: center;
+        color:gray;
+        width: 370px;
+        & > span{
+          font-size: 20px;
+          color:black;
+          font-weight: bold;
+        }
+      }
+    }
+}
+.nine{
+  position: relative;
+  top:2300px;
+  height:600px;
+  & h1{
+    position: absolute;
+    top:30px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:$blue;
+    font-size: 25px;
+  }
+  .cap{
+    position: relative;
+    top:140px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid gray;
+    width:350px;
+    margin-top:30px;
+    & h2{
+      color:$blue;
+      font-size:15px;
+    }
+    & p{
+      color:grey;
+      font-size: 13px;
+    }
+    } 
+}
+.ten{
+  position: relative;
+  top:2350px;
+  background-color:#75A9FF;
+  height: 1000px;
+  & h1{
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:25px;
+  }
+  .flex{
+    display: flex;
+    flex-direction:column; 
+    position: absolute;
+    top:500px;
+    left:50%;
+    transform: translate(-50%, -50%);
+   & .textBox {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    width:300px;
+    height:230px;
+    text-align: center;
+    margin-top:30px;
+    padding-top:60px;
+    & .phone{
+      color:#67c5ff;
+    }
+    & .order{
+      color:gray;
+    }
+    }
+  }
+}
+.eleven{
+  position: relative;
+  top:2350px;
+  background-color:#333333;
+  height:130px;
+  & .last{
+    color:white;
+    position: absolute;
+    top:50px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+  }
+  & .year{
+    color:white;
+    position: absolute;
+    top:90px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+  }
+}
+
+
+
+// position: absolute;
+// top:50%;
+// left:50%;
+// transform: translate(-50%, -50%);
+
+
